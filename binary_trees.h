@@ -5,6 +5,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+typedef struct binary_tree_s bst_t;
+typedef struct binary_tree_s avl_t;
+typedef struct binary_tree_s heap_t;
+
+
 /**
  * struct binary_tree_s - Binary tree node
  *
